@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*navigation bar*/
+
+header {
+    background-color: #e7e7e7;
+    box-shadow: 0 10px 15px -3px 
+rgba(119, 119, 119, 0.212),
+        0 4px 6px -4px 
+rgba(0, 0, 0, 0.1);
+}
+
+nav{
+    float:right;
+    padding: 0 20px 0 0;
+}
+
+header section{
+    display: inline-block;
+}
+
+header img{
+    height: 3.5%;
+    width: 3.5%;
+    padding: 20px 700px 20px 20px;
+}
+
+li{
+    display: inline;
+    padding-right: 10px;
+}
+
+ul li:hover{
+  color:rgb(189, 34, 34);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-style: italic;
+}
+
+a:hover{
+    color: #c22a2a;
+    cursor: pointer;
+}
+
+/*cover*/
+
+#photo{
+    display: flex;
+}
+
+/*offers*/
+
+#offers{
+    padding: 30px 0;
+}
+
+#offers h2{
+    color: #640101;
+    display: flex;
+    padding: 25px 0;
+    justify-content: center;
+}
+
+#offers ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#offers ul li p{
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+/*most recent*/
+#recent-play{
+    display: inline-flex;
+    padding: 30px 0;
+}
+
+#recent-play img{
+    padding: 150px 300px;
+}
+
+#recent-play h2{
+    color: #640101;
+    display: flex;
+    padding: 15px 0;
+}
+
+#recent-play button{
+    background-color: #b64040;
+    padding: 10px 20px;
+    border-radius: 25%;
+    border: none;
+}
+
+/*footer*/
+footer{
+    background-color: #640101;
+    
+}
+
+footer ul{
+    padding: 50px 10px;
+    display: flex;
+    justify-content: end;
+}
