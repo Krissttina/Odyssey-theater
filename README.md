@@ -21,7 +21,13 @@ tickets online.
 
 <img src="images/home.png"  width="500" height="350" />
 
-Divide your content into header, main and footer tags. Use #6B1515 for header and footer color. 
+Divide your content into header, main and footer tags. 
+
+* The **footer** should have the following properties:
+    * Font size - **16px**
+    * Font color - **#5a7c8a**
+    * Background color - **#6B1515**  
+
 Header contains the logo which is 50% rounded and the menu options. To create  the header menu options use ul li a tags.
 Use #C84545 color for the text. Put The Abonament option a button and use color #F1F1F1 and button color , rounded 50%.
 * The button should have the following properties:
@@ -40,3 +46,8 @@ Now for the body of the site
 * Use **section** tag to create three **sections** inside the main.
 In the first one we put only text. Next Is the News article where we have an image, a button and text with title and description. Finally the sidebar contains infornmation about the program in the current month.
 Every title is #6B1515 color including the date in the program sidebar.
+
+* The **footer** should have the following properties:
+    * Font size - **16px**
+    * Font color - **#5a7c8a**
+    * Background color - **#6B1515**  
